@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astro Reader · Your pocket library</title>
+  <meta name="description" content="Astro Reader turns your PDFs into a beautiful bookshelf that's comfortable to read on your Android. Text mode, highlights, notes and a reading streak.">
+  <meta name="theme-color" content="#F8F1EA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16172C" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32.png">
+  <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+  <link rel="alternate" hreflang="es" href="https://astroreaderapp.github.io/">
+  <link rel="alternate" hreflang="en" href="https://astroreaderapp.github.io/en/">
+  <link rel="preload" href="../fuentes/outfit-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../estilos.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://astroreaderapp.github.io/en/">
+  <meta property="og:site_name" content="Astro Reader">
+  <meta property="og:title" content="Astro Reader · Your pocket library">
+  <meta property="og:description" content="Your PDFs on a beautiful bookshelf, comfortable to read on your Android.">
+  <meta property="og:image" content="https://astroreaderapp.github.io/img/compartir.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Skip to content</a>
+
+  <header class="cabecera">
+    <div class="contenedor">
+      <a class="marca" href="index.html">
+        <img src="../img/logo.webp" width="40" height="40" alt="">
+        Astro Reader
+      </a>
+      <nav class="idioma" aria-label="Language">
+        <a href="../index.html" lang="es" hreflang="es">ES</a>
+        <span aria-current="page" lang="en">EN</span>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="contenedor">
+        <div>
+          <h1>Your pocket library.</h1>
+          <p class="subtitulo">Astro Reader turns your PDFs into a beautiful bookshelf that's comfortable to read on your Android. No account needed to read, no hassle.</p>
+
+          <!-- GOOGLE PLAY LINK: when the app is published, change href="#" to
+               https://play.google.com/store/apps/details?id=com.astroreader.app
+               remove aria-disabled="true" and change the text to "Get it on Google Play". -->
+          <a class="boton" id="google-play" href="#" aria-disabled="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5v17l14-8.5z"/></svg>
+            Coming soon to Google Play
+          </a>
+          <span class="nota-boton">For Android phones.</span>
+        </div>
+
+        <div class="telefono-zona">
+          <div class="telefono">
+            <div class="pantalla">
+              <!-- SCREENSHOT: replace this block with
+                   <img src="../img/captura-1.webp" alt="The Astro Reader bookshelf with several books" width="1080" height="2340"> -->
+              <div class="pantalla-vacia">
+                <img src="../img/logo.webp" width="64" height="64" alt="">
+                <span>An app screenshot will go here</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="t-funciones">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="t-funciones">Made for reading, your way</h2>
+        <p class="intro-seccion">Everything you need to enjoy your books on your phone.</p>
+
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <div class="icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><rect x="5" y="5" width="3.5" height="15" rx="0.8"/><rect x="9.5" y="3.5" width="3.5" height="16.5" rx="0.8"/><path d="M14.6 6.2l3.2-1 3.6 13.8-3.2 1z"/></svg></div>
+            <h3>Your shelf, your books</h3>
+            <p>Import your PDFs from your phone or Google Drive and see them on a bookshelf, with your progress on every cover.</p>
+          </article>
+
+          <article class="tarjeta">
+            <div class="icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 19l5-14 5 14M4.8 14h6.4"/><path d="M15 12.5c.6-1 1.6-1.5 2.8-1.5 1.8 0 2.7 1 2.7 2.7V19m0-3.3c-.5 2.2-1.7 3.3-3.4 3.3-1.4 0-2.3-.8-2.3-2 0-1.4 1.2-2.1 3.4-2.1h2.3"/></svg></div>
+            <h3>Comfortable reading</h3>
+            <p>Text mode with adjustable font size, light, sepia and dark themes, and PDF mode whenever you need it.</p>
+          </article>
+
+          <article class="tarjeta">
+            <div class="icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11a1 1 0 0 1 1 1v16l-6.5-4.5-6.5 4.5v-16a1 1 0 0 1 1-1z"/></svg></div>
+            <h3>Pick up where you left off</h3>
+            <p>The app remembers your last page and shows your current book as soon as you open it.</p>
+          </article>
+
+          <article class="tarjeta">
+            <div class="icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 4.5l5 5L10 19H5v-5z"/><path d="M12.5 6.5l5 5"/><path d="M4 21.5h16"/></svg></div>
+            <h3>Highlight and take notes</h3>
+            <p>Highlight your favorite lines in color, add notes to them and find them all in one place whenever you want.</p>
+          </article>
+
+          <article class="tarjeta">
+            <div class="icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c-4 0-7-2.8-7-6.6 0-3.3 2.4-5.4 3.6-7.9.4 1.6 1.2 2.7 2.4 3.4C11.4 6.4 13 4 15 2.5c-.2 3 1.4 4.6 2.6 6.3 1 1.4 1.4 2.8 1.4 4.6C19 18.2 16 21 12 21z"/><path d="M12 21c-1.7 0-3-1.2-3-2.9 0-1.8 1.6-2.7 2.3-4.1.9 1 1.5 1.3 2.3 1.4.8 1 1.4 1.7 1.4 2.7 0 1.7-1.3 2.9-3 2.9z"/></svg></div>
+            <h3>Your reading streak</h3>
+            <p>A daily streak that helps you build a reading habit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="t-privacidad">
+      <div class="contenedor">
+        <div class="privacidad-bloque">
+          <div class="icono"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/><path d="M12 14.5v2"/></svg></div>
+          <div>
+            <h2 id="t-privacidad">Your books stay on your phone.</h2>
+            <p style="margin-top:12px">No ads and no account needed to read. Your books, highlights and progress are stored only on your phone.</p>
+            <p style="margin-top:14px"><a href="privacy.html">Read the privacy policy</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <span>© 2026 Astro Reader</span>
+      <span aria-hidden="true">·</span>
+      <a href="privacy.html">Privacy policy</a>
+      <span aria-hidden="true">·</span>
+      <a href="mailto:contacto.astroreader@gmail.com">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
